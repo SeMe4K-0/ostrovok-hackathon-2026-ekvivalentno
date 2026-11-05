@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+/backend/data/
+/data/
+.env
+.DS_Store
+
+# SSH key of the Mini App tunnel (localhost.run account): never commit
+.tunnel/
+
+# Local credentials and encrypted environment exports
+.env.*
+!.env.example
+secrets.env.age

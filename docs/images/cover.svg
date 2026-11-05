@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+  <title id="title">О!дин запрос</title>
+  <desc id="desc">AI-агент для путешествий. От идеи до плана поездки в одном диалоге.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#5ef0b6" stop-opacity=".22"/><stop offset="1" stop-color="#5ef0b6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+  </defs>
+  <rect width="1440" height="440" rx="30" fill="#111715"/>
+  <rect width="1440" height="440" rx="30" fill="url(#grid)"/>
+  <ellipse cx="1160" cy="230" rx="360" ry="290" fill="url(#glow)"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="64" y="54" width="226" height="32" rx="16" fill="#5ef0b6"/>
+    <text x="177" y="75" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#06231a">AI TRAVEL PLANNER</text>
+    <text x="60" y="196" font-size="86" font-weight="800" letter-spacing="-4" fill="#f5f8f6">О!дин запрос<tspan fill="#5ef0b6">.</tspan></text>
+    <text x="64" y="254" font-size="29" fill="#c5d2cc">От идеи до плана поездки</text>
+    <text x="64" y="295" font-size="29" fill="#c5d2cc">в одном диалоге.</text>
+    <text x="64" y="384" font-size="14" letter-spacing="2" fill="#7d978a">ОТЕЛИ · ТРАНСПОРТ · КАРТА · ВАШИ ПРЕДПОЧТЕНИЯ</text>
+    <path d="M880 300C955 300 952 134 1060 134S1150 298 1318 214" stroke="#5ef0b6" stroke-width="3" stroke-dasharray="7 9" fill="none"/>
+    <circle cx="880" cy="300" r="10" fill="#5ef0b6"/>
+    <circle cx="1318" cy="214" r="10" fill="#5ef0b6"/>
+    <g transform="translate(944 94) rotate(-7)">
+      <rect width="290" height="116" rx="22" fill="#f3f7f4"/>
+      <circle cx="40" cy="43" r="18" fill="#d8f8e9"/>
+      <path d="M32 43l6 6 11-13" stroke="#16845a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <text x="70" y="48" font-size="20" font-weight="700" fill="#11291e">План собран</text>
+      <text x="24" y="88" font-size="15" fill="#557064">Поездка под ваши условия</text>
+    </g>
+    <g transform="translate(1034 268) rotate(6)">
+      <rect width="280" height="72" rx="20" fill="#5ef0b6"/>
+      <text x="24" y="43" font-size="18" font-weight="700" fill="#06231a">А можно на два дня позже?</text>
+    </g>
+  </g>
+</svg>
